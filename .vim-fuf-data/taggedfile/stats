@@ -1,0 +1,7 @@
+{'word': 'app', 'pattern': 'app'}
+{'word': 'lib/ods_client.rb', 'pattern': 'ods_cli'}
+{'word': 'lib/ods_logging.rb', 'pattern': 'ods_lo'}
+{'word': 'ctags', 'pattern': 'ctags'}
+{'word': 'lib/ods_user.rb', 'pattern': 'odsus'}
+{'word': 'define strcasecmp strcasecmp27,514', 'pattern': 'strcas'}
+{'word': 'lib/ods_exception.rb', 'pattern': 'ex'}

@@ -1,0 +1,106 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Acl	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^  class Acl$/;"	c	language:Ruby	class:Ods
+acl_scope_detail	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^    def acl_scope_detail$/;"	f	language:Ruby	class:Ods.Acl.rights
+acs_right_list_for_role	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^    def acs_right_list_for_role(role)$/;"	f	language:Ruby	class:Ods.Acl.rights
+acs_role_list	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^    def acs_role_list$/;"	f	language:Ruby	class:Ods.Acl.rights
+add_acl	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^    def self.add_acl(params)$/;"	F	language:Ruby	class:Ods.Acl.rights
+add_acl_with_scope	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^    def self.add_acl_with_scope(params)$/;"	F	language:Ruby	class:Ods.Acl.rights
+analyze_ods_result	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^    def analyze_ods_result(lines=[])$/;"	f	language:Ruby
+configure	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^    def self.configure( &block )$/;"	F	language:Ruby
+Contact	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_contact.rb	/^  class Contact < OdsClient$/;"	c	language:Ruby	class:Ods
+create	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_user.rb	/^    def create(params={})$/;"	f	language:Ruby	class:Ods.User
+creation_allowed	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_nameserver.rb	/^    def creation_allowed$/;"	f	language:Ruby	class:Ods.Nameserver
+data_cache	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^    def data_cache(key)$/;"	f	language:Ruby	class:Ods.Acl.rights
+delete	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_status.rb	/^      def delete$/;"	f	language:Ruby	class:Ods.DomainStatus
+delete	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_property.rb	/^    def delete$/;"	f	language:Ruby	class:Ods.Property
+deletion_allowed	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_nameserver.rb	/^    def deletion_allowed$/;"	f	language:Ruby	class:Ods.Nameserver
+destroy	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_attribute.rb	/^    def destroy$/;"	f	language:Ruby	class:Ods.DomainAttribute
+Domain	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain.rb	/^  class Domain < OdsClient$/;"	c	language:Ruby	class:Ods
+DomainAttribute	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_attribute.rb	/^  class DomainAttribute$/;"	c	language:Ruby	class:Ods
+DomainStatus	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_status.rb	/^  class DomainStatus < OdsClient$/;"	c	language:Ruby	class:Ods
+escape	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^        def escape(str) # :nodoc:$/;"	f	language:Ruby	class:initialize
+escape	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/own_httpclient.rb	/^  def escape(str) # :nodoc:$/;"	f	language:Ruby	class:OwnHTTPClient
+find	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_contact.rb	/^      def self.find(type=nil, dummy= nil, params={})$/;"	F	language:Ruby	class:Ods.Contact
+find	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain.rb	/^    def self.find(ptype=:all, list_ptype=:domain, params={})$/;"	F	language:Ruby	class:Ods.Domain
+find	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_attribute.rb	/^    def self.find(search_type=nil, dummy= nil, params={}, list_type='enumerate')$/;"	F	language:Ruby	class:Ods.DomainAttribute
+find	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_status.rb	/^      def self.find(type=:all,params={})$/;"	F	language:Ruby	class:Ods.DomainStatus
+find	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_nameserver.rb	/^    def self.find(type=nil, dummy= nil, params={})$/;"	F	language:Ruby	class:Ods.Nameserver
+find	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_property.rb	/^    def self.find(ftype=:first, params={})$/;"	F	language:Ruby	class:Ods.Property
+find_acls_for_object	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^    def self.find_acls_for_object(params)$/;"	F	language:Ruby	class:Ods.Acl.rights
+find_all_by_fqdn	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_status.rb	/^      def self.find_all_by_fqdn(fqdn,params=Hash.new)$/;"	F	language:Ruby	class:Ods.DomainStatus
+find_by_fqdn	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_attribute.rb	/^    def self.find_by_fqdn(search_type=:all,fqdn=nil,params={})$/;"	F	language:Ruby	class:Ods.DomainAttribute
+find_by_fqdn	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_status.rb	/^      def self.find_by_fqdn(type=nil,fqdn="")$/;"	F	language:Ruby	class:Ods.DomainStatus
+find_by_name	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_attribute.rb	/^    def self.find_by_name(name=nil,params={})$/;"	F	language:Ruby	class:Ods.DomainAttribute
+foreign_roles	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain.rb	/^    def foreign_roles(params={})$/;"	f	language:Ruby	class:Ods.Domain
+initialize	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^    def initialize(params = nil)$/;"	f	language:Ruby	class:Ods.Acl
+initialize	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^    def initialize(target=nil,$/;"	f	language:Ruby
+initialize	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_contact.rb	/^      def initialize(params)$/;"	f	language:Ruby	class:Ods.Contact
+initialize	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain.rb	/^    def initialize(params)$/;"	f	language:Ruby	class:Ods.Domain
+initialize	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_attribute.rb	/^    def initialize(params)$/;"	f	language:Ruby	class:Ods.DomainAttribute
+initialize	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_status.rb	/^      def initialize$/;"	f	language:Ruby	class:Ods.DomainStatus
+initialize	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_exception.rb	/^    def initialize(message=nil,status_code=nil, header=nil, body=nil, last_command=nil)$/;"	f	language:Ruby	class:OdsException
+initialize	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_nameserver.rb	/^    def initialize(params)$/;"	f	language:Ruby	class:Ods.Nameserver
+initialize	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_property.rb	/^    def initialize$/;"	f	language:Ruby	class:Ods.Property
+initialize	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_user.rb	/^    def initialize(params={})$/;"	f	language:Ruby	class:Ods.User
+inquire_permission	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^    def inquire_permission(params={})$/;"	f	language:Ruby	class:Ods.Acl.rights
+internal_request	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^    def internal_request(url, parameter_hash)$/;"	f	language:Ruby
+is_reseller?	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_user.rb	/^    def is_reseller?$/;"	f	language:Ruby	class:Ods.User
+list	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_status.rb	/^      def list$/;"	f	language:Ruby	class:Ods.DomainStatus
+list	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_property.rb	/^    def list$/;"	f	language:Ruby	class:Ods.Property
+list_all_defined_for_given_type	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_property.rb	/^    def self.list_all_defined_for_given_type(type=:user)$/;"	F	language:Ruby	class:Ods.Property
+login	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^    def login$/;"	f	language:Ruby
+log_ods	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^    def log_ods(operation, url, parameters, last_status)$/;"	f	language:Ruby
+max_renewal_period	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain.rb	/^    def self.max_renewal_period(customer, expiration_date=nil)$/;"	F	language:Ruby	class:Ods.Domain
+modification_allowed	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_nameserver.rb	/^    def modification_allowed$/;"	f	language:Ruby	class:Ods.Nameserver
+Nameserver	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_nameserver.rb	/^  class Nameserver < OdsClient$/;"	c	language:Ruby	class:Ods
+Ods	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods.rb	/^module Ods$/;"	m	language:Ruby
+Ods	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^module Ods$/;"	m	language:Ruby
+Ods	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^module Ods$/;"	m	language:Ruby
+Ods	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_contact.rb	/^module Ods$/;"	m	language:Ruby
+Ods	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain.rb	/^module Ods$/;"	m	language:Ruby
+Ods	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_attribute.rb	/^module  Ods$/;"	m	language:Ruby
+Ods	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_status.rb	/^module Ods$/;"	m	language:Ruby
+Ods	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_nameserver.rb	/^module Ods$/;"	m	language:Ruby
+Ods	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_property.rb	/^module Ods$/;"	m	language:Ruby
+Ods	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_user.rb	/^module Ods$/;"	m	language:Ruby
+Ods	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/version.rb	/^module Ods$/;"	m	language:Ruby
+OdsClient	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^  class OdsClient$/;"	c	language:Ruby	class:Ods
+OdsException	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_exception.rb	/^  class OdsException < RuntimeError$/;"	c	language:Ruby
+ods_scope_detail	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^    def ods_scope_detail$/;"	f	language:Ruby	class:Ods.Acl.rights
+OwnHTTPClient	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/own_httpclient.rb	/^class OwnHTTPClient < HTTPClient$/;"	c	language:Ruby
+pretty_print	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^    def pretty_print(*args)$/;"	f	language:Ruby
+Property	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_property.rb	/^  class Property < OdsClient$/;"	c	language:Ruby	class:Ods
+registered_with	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_nameserver.rb	/^    def registered_with$/;"	f	language:Ruby	class:Ods.Nameserver
+remove	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^    def remove(params)$/;"	f	language:Ruby	class:Ods.Acl.rights
+remove_acl	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^    def self.remove_acl(params)$/;"	F	language:Ruby	class:Ods.Acl.rights
+request	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^    def request(object='user', operation='list', parameters={})$/;"	f	language:Ruby
+request_with_exception	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^    def request_with_exception(object='user', operation='list', parameters={})$/;"	f	language:Ruby
+retrieve_hash	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^    def retrieve_hash(object='user', operation='list', parameters={})$/;"	f	language:Ruby
+retrieve_hash_with_separator	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^    def retrieve_hash_with_separator(separator=":", object='user', operation='list', parameters={})$/;"	f	language:Ruby
+retrieve_lines	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^    def retrieve_lines(object='user', operation='list', parameters={})$/;"	f	language:Ruby
+rights	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^    def rights$/;"	f	language:Ruby	class:Ods.Acl
+roles	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^    def roles$/;"	f	language:Ruby	class:Ods.Acl
+save	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_attribute.rb	/^    def save$/;"	f	language:Ruby	class:Ods.DomainAttribute
+save	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_status.rb	/^      def save$/;"	f	language:Ruby	class:Ods.DomainStatus
+save	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_property.rb	/^    def save$/;"	f	language:Ruby	class:Ods.Property
+search	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_property.rb	/^    def search(type=nil, params={})$/;"	f	language:Ruby	class:Ods.Property
+set	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_status.rb	/^      def set(params={})$/;"	f	language:Ruby	class:Ods.DomainStatus
+set	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_property.rb	/^    def set(params={})$/;"	f	language:Ruby	class:Ods.Property
+set_ace	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^    def set_ace$/;"	f	language:Ruby	class:Ods.Acl.rights
+split_results	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^    def split_results(lines=[])$/;"	f	language:Ruby
+status_type	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_attribute.rb	/^    def status_type$/;"	f	language:Ruby	class:Ods.DomainAttribute
+status_type	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_attribute.rb	/^    def status_type$/;"	f	language:Ruby	class:Ods.DomainAttribute
+status_type=	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_attribute.rb	/^    def status_type=(p_status_type)$/;"	f	language:Ruby	class:Ods.DomainAttribute
+to_s	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^    def to_s$/;"	f	language:Ruby
+to_xml	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^    def to_xml$/;"	f	language:Ruby	class:Ods.Acl
+to_yaml	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_client.rb	/^    def to_yaml(args={})$/;"	f	language:Ruby
+unset_ace	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_acl.rb	/^    def unset_ace$/;"	f	language:Ruby	class:Ods.Acl.rights
+update	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_user.rb	/^    def update$/;"	f	language:Ruby	class:Ods.User
+update_acls	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_attribute.rb	/^    def update_acls$/;"	f	language:Ruby	class:Ods.DomainAttribute
+User	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_user.rb	/^  class User$/;"	c	language:Ruby	class:Ods
+[]	/Users/tov/Documents/Projekte_SSD/gems/ods/lib/ods_domain_attribute.rb	/^    def []()$/;"	f	language:Ruby	class:Ods.DomainAttribute

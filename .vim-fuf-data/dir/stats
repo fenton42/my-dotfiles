@@ -1,0 +1,2 @@
+{'word': 'lib/.', 'pattern': 'lib/'}
+{'word': 'lib/ ', 'pattern': 'lib/ '}

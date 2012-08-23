@@ -8,33 +8,36 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="tov"
 
 # Example aliases
-alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="subl ~/.zshrc"
+alias ohmyzsh="subl ~/.oh-my-zsh"
 
 # Set to this to use case-sensitive completion
-# CASE_SENSITIVE="true"
+CASE_SENSITIVE="true"
 
 # Comment this out to disable weekly auto-update checks
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment following line if you want to disable colors in ls
-# DISABLE_LS_COLORS="true"
+DISABLE_LS_COLORS="true"
 
 # Uncomment following line if you want to disable autosetting terminal title.
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment following line if you want red dots to be displayed while waiting for completion
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git bundler brew gem rbates)
+plugins=(git bundler brew gem rbates iterm2)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/Users/tov/.rvm/gems/ree-1.8.7-2011.03@joker_on_rails/bin:/Users/tov/.rvm/gems/ree-1.8.7-2011.03@global/bin:/Users/tov/.rvm/rubies/ree-1.8.7-2011.03/bin:/Users/tov/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/tov/bin:/Developer/usr/bin:/Applications/IBM/informix/bin/:/usr/local/CrossPack-AVR/bin
+export PATH=/Users/tov/.rvm/bin:/usr/local/share/python:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/tov/bin:/Developer/usr/bin:/Applications/IBM/informix/bin/:/usr/local/CrossPack-AVR/bin
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 cdpath=( ~/Documents/Projekte_SSD)
 
+
+alias wjoker="whois -h whois.joker.com"

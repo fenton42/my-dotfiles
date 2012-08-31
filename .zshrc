@@ -29,12 +29,12 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git bundler brew gem rbates iterm2)
+plugins=(git brew gem iterm2 git-prompt)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/Users/tov/.rvm/bin:/usr/local/share/python:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/tov/bin:/Developer/usr/bin:/Applications/IBM/informix/bin/:/usr/local/CrossPack-AVR/bin
+export PATH=/Users/tov/.rvm/bin:/usr/local/share/python:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/tov/bin:/Developer/usr/bin:/Applications/IBM/informix/bin:/usr/local/CrossPack-AVR/bin
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 cdpath=( ~/Documents/Projekte_SSD)

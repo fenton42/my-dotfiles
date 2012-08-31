@@ -18,14 +18,16 @@ tab-reset() {
 color-ssh() {
     if [[ -n "$ITERM_SESSION_ID" ]]; then
         trap "tab-reset" INT EXIT
-        if [[ "$*" =~ "devel|^pd" ]]; then
-            tab-color 255 128 128
+        if [[ "$*" =~ "devel|^pd|infotool" ]]; then
+            tab-color 102 205 170
+          elif [[ "$*" =~ "overkamp.(org|biz)" ]]; then
+            tab-color 0 250 154
         elif [[ "$*" =~ "kunden.csl.de" ]]; then
             tab-color 255 69 0
         elif [[ "$*" =~ "private|epp-be.*" ]]; then
             tab-color 255 165 0
         else
-            tab-color 0 255 0
+            tab-color 255 255 0
         fi
     fi
     ssh $*
